@@ -1,10 +1,10 @@
 # WebdriverIO JUnit Reporter Fix  
 
-This repository verifies the fix for the WebdriverIO JUnit reporter bug ([#8970](https://github.com/webdriverio/webdriverio/issues/8970)), where large log outputs previously caused malformed XML. WebdriverIO **9.10.x** resolves this issue. This project tests the fix by generating **10,000+ logs** and ensuring the XML remains valid.  
+This repository verifies the fix for the WebdriverIO JUnit reporter bug ([#8970](https://github.com/webdriverio/webdriverio/issues/8970)), where large log outputs previously caused malformed XML. WebdriverIO **9.x** resolves this issue. This project tests the fix by generating **10,000+ logs** and ensuring the XML remains valid.  
 
 ## Fix Summary  
 - **Bug [#8970](https://github.com/webdriverio/webdriverio/issues/8970)**: JUnit reporter previously failed with large logs (1,500+ lines).  
-- **WebdriverIO 9.10.x** now correctly generates valid XML with high log volumes.  
+- **WebdriverIO 9.x** now correctly generates valid XML with high log volumes.  
 
 ## Setup  
 
