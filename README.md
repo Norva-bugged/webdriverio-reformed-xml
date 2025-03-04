@@ -14,7 +14,7 @@ This repository verifies the fix for the WebdriverIO JUnit reporter bug ([#8970]
 
 ### Installation  
 ```bash
-cd wdio-junit-reporter-fix
+cd webdriverio-reformed-xml
 npm install
 ```  
 
